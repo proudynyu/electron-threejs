@@ -1,0 +1,19 @@
+{
+  "name": "electron-galaxy",
+  "version": "1.0.0",
+  "main": "main.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "build": "yarn webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "13.1.9",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "three": "^0.131.3",
+    "webpack": "^5.50.0"
+  }
+}
